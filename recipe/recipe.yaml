@@ -72,6 +72,7 @@ tests:
       recipe:
         - run_test.py
       source:
+        - pyproject-fmt/build_backend.py
         - pyproject-fmt/tests/
     requirements:
       run:
