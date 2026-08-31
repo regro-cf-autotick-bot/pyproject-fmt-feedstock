@@ -45,7 +45,7 @@ requirements:
     - cargo-auditable
     - cargo-bundle-licenses
   host:
-    - maturin >=1.14
+    - maturin >=1.14.1
     - pip
     - python
     - if: is_abi3
@@ -74,6 +74,7 @@ tests:
       source:
         - pyproject-fmt/build_backend.py
         - pyproject-fmt/tests/
+        - pyproject-fmt/tox.toml
     requirements:
       run:
         - pytest >=8.4.2
