@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.28.2"
+  version: "2.29.0"
   python_check_max: "3.14"
 
 package:
@@ -10,8 +10,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/ff/92/522a10aa6cba271db9aebe75b4c3e756dc231db263b0e92e66d5ff9138cc/pyproject_fmt-${{ version }}.tar.gz
-  sha256: 46a6b2dde5eca5ec26824a8a329cbdc045081fef76ebe2303996cccb9b203965
+  url: https://files.pythonhosted.org/packages/dd/a6/462b6774b291839c4e290a65049a9502874f76dd5c6a81c7917c5285793a/pyproject_fmt-${{ version }}.tar.gz
+  sha256: 29d330c671cf19c5ffd236226154aee2e8daeea304ba519a7822e952bca4508a
 
 build:
   number: 0
